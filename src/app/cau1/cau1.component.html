@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            Câu 1 :
+            <ul d-flex>
+                <li *ngFor="let item of arr">{{item}}</li>
+
+            </ul>
+            <p>Câu 2 :</p>
+            <h1 *ngIf="show"> Helloword </h1>
+            <button (click)='show = !show' class="btn btn-danger"> Show</button>
+        </div>
+    </div>
+</div>
